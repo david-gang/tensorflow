@@ -1,3 +1,6 @@
+android_sdk_repository(name = "androidsdk")
+android_ndk_repository(name = "androidndk")
+
 workspace(name = "org_tensorflow")
 
 # Initialize the TensorFlow repository and all dependencies.
